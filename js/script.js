@@ -34,7 +34,7 @@ const renderTodos = () =>{
     todos.map(todo =>{
         // console.log(todo)
         let block = document.createElement('div')
-        block.style.background=todo.status===true?'green':'coral'
+        block.style.background=todo.status===true?'red':'yellow'
 
         let mess = document.createElement('h2')
         let mesDescription=document.createElement("p")
